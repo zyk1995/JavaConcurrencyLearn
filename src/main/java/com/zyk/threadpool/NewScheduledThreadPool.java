@@ -13,9 +13,9 @@ public class NewScheduledThreadPool {
             final int finalI = i;
             scheduledThreadPool.schedule(new Runnable() {
                 public void run() {
-                    System.out.println(finalI +"delay 3 seconds");
+                    System.out.println(finalI +"delay 30 seconds");
                 }
-            }, 3, TimeUnit.SECONDS);
+            }, 30, TimeUnit.SECONDS);
         }
     }
 }
